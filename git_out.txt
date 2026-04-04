@@ -1,0 +1,11 @@
+commit 0e379e74c9d9674e3b334bbc6034b64ae1bb73d6
+Author: Nandini-tech-path <silverunandini@gmail.com>
+Date:   Wed Apr 1 20:42:17 2026 +0530
+
+    feat: implement modern dark-themed KYC identity dashboard with multi-step form and distinct ID sections
+
+ frontend/src/App.jsx               |   2 +
+ frontend/src/components/Layout.jsx |  19 +-
+ frontend/src/pages/CompleteKYC.jsx |  92 ++++--
+ frontend/src/pages/UpdateKYC.jsx   | 565 +++++++++++++++++++++++++++++++++++++
+ 4 files changed, 652 insertions(+), 26 deletions(-)
